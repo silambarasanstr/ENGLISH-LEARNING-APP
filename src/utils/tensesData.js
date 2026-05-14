@@ -195,6 +195,175 @@ const tensesData = {
       },
     ],
   },
+  "Day-3": {
+    date: dynamicDate,
+    tenses: [
+      {
+        id: 1,
+        title: "PRESENT",
+        color: "bg-red-600",
+        textColor: "text-red-600",
+        items: [
+          {
+            name: "Simple",
+            example: "shy is reading a book.",
+          },
+
+          {
+            name: "Continuous",
+            example: "she is reading now.",
+          },
+
+          {
+            name: "Perfect",
+            example: "she has finished her homework.",
+          },
+
+          {
+            name: "Perfect Continuous",
+            example: "she has been studying for hours.",
+          },
+        ],
+      },
+
+      {
+        id: 2,
+        title: "PAST",
+        color: "bg-green-600",
+        textColor: "text-green-600",
+        items: [
+          {
+            name: "Simple",
+            example: "she visited Chennai yesterday.",
+          },
+
+          {
+            name: "Continuous",
+            example: "she was cooking dinner.",
+          },
+
+          {
+            name: "Perfect",
+            example: "she had completed the project.",
+          },
+
+          {
+            name: "Perfect Continuous",
+            example: "she had been studying for hours.",
+          },
+        ],
+      },
+
+      {
+        id: 3,
+        title: "FUTURE",
+        color: "bg-blue-600",
+        textColor: "text-blue-600",
+        items: [
+          {
+            name: "Simple",
+            example: "she will join the class tomorrow.",
+          },
+
+          {
+            name: "Continuous",
+            example: "she will be traveling next week.",
+          },
+
+          {
+            name: "Perfect",
+            example: "she will have finished the exam.",
+          },
+
+          {
+            name: "Perfect Continuous",
+            example: "she will have been working here for 2 years.",
+          },
+        ],
+      },
+    ],
+  },
+  "Day-4": {
+    date: dynamicDate,
+    tenses: [
+      {
+        id: 1,
+        title: "PRESENT",
+        color: "bg-red-600",
+        textColor: "text-red-600",
+        items: [
+          {
+            name: "Simple",
+            example: "We dance together.",
+          },
+
+          {
+            name: "Continuous",
+            example: "We are dancing now.",
+          },
+
+          {
+            name: "Perfect",
+            example: "We have finished our task.",
+          },
+
+          {
+            name: "Perfect Continuous",
+            example: "We have been learning for 2 months.",
+          },
+        ],
+      },
+
+      {
+        id: 2,
+        title: "PAST",
+        color: "bg-green-600",
+        textColor: "text-green-600",
+        items: [
+          {
+            name: "Simple",
+            example: "We danced yesterday.",
+          },
+          {
+            name: "Continuous",
+            example: "We were dancing.",
+          },
+          {
+            name: "Perfect",
+            example: "We had finished our task.",
+          },
+          {
+            name: "Perfect Continuous",
+            example: "We had been learning for 2 months.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: "FUTURE",
+        color: "bg-blue-600",
+        textColor: "text-blue-600",
+        items: [
+          {
+            name: "Simple",
+            example: "We will dance tomorrow.",
+          },
+          {
+            name: "Continuous",
+            example: "We will be dancing next week.",
+          },
+          {
+            name: "Perfect",
+            example: "We will have finished our task.",
+          },
+          {
+            name: "Perfect Continuous",
+            example: "We will have been learning for 2 months.",
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export default tensesData;

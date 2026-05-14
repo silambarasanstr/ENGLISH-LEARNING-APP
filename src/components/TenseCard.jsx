@@ -2,7 +2,7 @@
 
 const TenseCard = ({ tense }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-start py-4 border-b border-gray-200 last:border-b-0">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-start py-4 border-b border-gray-200 last:border-b-0 ">
       
       {/* LEFT SIDE */}
       <div className="flex justify-center md:justify-start">
