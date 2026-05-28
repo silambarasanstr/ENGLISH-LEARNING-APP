@@ -249,36 +249,7 @@ export const GRAMMAR_TOPICS = [
       },
     ],
   },
-  {
-    id: "common-phrases",
-    title: "Common Phrases",
-    items: [
-      {
-        title: "Greetings",
-        subtitle: "வாழ்த்துக்கள்",
-        examples: [
-          { english: "Good morning", tamil: "காலை வணக்கம்" },
-          { english: "How are you?", tamil: "நீங்கள் எப்படி இருக்கிறீர்கள்?" },
-          {
-            english: "Nice to meet you",
-            tamil: "உங்களை சந்தித்ததில் மகிழ்ச்சி",
-          },
-        ],
-      },
-      {
-        title: "Requests",
-        subtitle: "கோரிக்கைகள்",
-        examples: [
-          { english: "Please help me", tamil: "தயவுசெய்து எனக்கு உதவுங்கள்" },
-          {
-            english: "Can you tell me?",
-            tamil: "நீங்கள் எனக்கு சொல்ல முடியுமா?",
-          },
-          { english: "Thank you very much", tamil: "மிக்க நன்றி" },
-        ],
-      },
-    ],
-  },
+ 
   {
     id: "sentence-structure",
     title: "Sentence Structure",
@@ -420,29 +391,7 @@ export const GRAMMAR_TOPICS = [
       },
     ],
   },
-  {
-    id: "daily-conversation",
-    title: "Daily Conversation",
-    items: [
-      {
-        title: "At Home",
-        examples: [
-          { english: "I am eating now", tamil: "நான் இப்போது சாப்பிடுகிறேன்" },
-          { english: "I will come later", tamil: "நான் பிறகு வருவேன்" },
-        ],
-      },
-      {
-        title: "At Work",
-        examples: [
-          { english: "I will finish this task", tamil: "இந்த வேலை முடிப்பேன்" },
-          {
-            english: "Let’s start the meeting",
-            tamil: "நாம் கூட்டத்தை தொடங்கலாம்",
-          },
-        ],
-      },
-    ],
-  },
+  
   {
     id: "wh-questions",
     title: "WH Questions",
@@ -457,22 +406,8 @@ export const GRAMMAR_TOPICS = [
       },
     ],
   },
-  {
-    id: "common-mistakes",
-    title: "Common Mistakes",
-    items: [
-      {
-        title: "Wrong vs Correct",
-        examples: [
-          { english: "He go to school ❌", tamil: "He goes to school ✅" },
-          {
-            english: "I am having 2 brothers ❌",
-            tamil: "I have 2 brothers ✅",
-          },
-        ],
-      },
-    ],
-  },
+
+  
 ];
 
 export const CONVERSATIONS = [

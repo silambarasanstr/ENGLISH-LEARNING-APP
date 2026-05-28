@@ -21,6 +21,8 @@ export const Navbar = () => {
     { name: "Schedule", path: "/schedule", icon: Calendar },
     { name: "Prompt", path: "/prompt", icon: Sparkles },
     { name: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
+    { name: "Verb-Forms", path: "/verb-forms", icon: LayoutDashboard },
+    { name: "Articles", path: "/ArticlesLearning", icon: LayoutDashboard },
   ];
 
   return (

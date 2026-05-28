@@ -57,12 +57,7 @@ export const Interview = () => {
             ))}
           </div>
 
-          <div className="p-6 bg-indigo-50 border border-indigo-100 rounded-2xl">
-            <h4 className="text-sm font-bold text-indigo-600 mb-2 uppercase tracking-wider">Pro Tip</h4>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              Try answering the question aloud before revealing the model answer to improve your confidence.
-            </p>
-          </div>
+         
         </div>
 
         {/* Main Content */}

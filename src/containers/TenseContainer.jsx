@@ -33,7 +33,7 @@ const TenseContainer = () => {
       </div>
 
       {/* HEADER */}
-      <div className=" bg-indigo-600 text-white rounded px-4 py-3 shadow-sm mb-4">
+      <div className=" px-4 py-3 shadow-sm mt-5 mb-4 border border-gray-300">
         <h1 className="text-base md:text-xl font-semibold text-center leading-snug">
           {selectedDay} - Daily Tense Learning Practice
         </h1>

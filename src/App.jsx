@@ -9,6 +9,8 @@ import { Schedule } from "./containers/Schedule";
 import { Dashboard } from "./containers/Dashboard";
 import { Prompt } from "./containers/Prompt";
 import { ToastProvider } from "./utils/ToastContext";
+import VerbForms from "./containers/VerbForms";
+import ArticlesLearning from "./containers/ArticlesLearning";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/prompt" element={<Prompt />} />
+              <Route path="/verb-forms" element={<VerbForms />} />
+              <Route path="/ArticlesLearning" element={<ArticlesLearning />} />
             </Routes>
           </main>
 
