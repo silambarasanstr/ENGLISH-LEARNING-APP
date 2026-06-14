@@ -1,27 +1,19 @@
 import React, { useState } from "react";
 import { GRAMMAR_TOPICS } from "../utils/data";
 import { Card, CardBody } from "../components/Card";
-import {
-  BookOpen,
-  ChevronRight,
-  ChevronDown,
-} from "lucide-react";
+import { BookOpen, ChevronRight, ChevronDown } from "lucide-react";
 
 export const Course = () => {
   const [selectedTopic, setSelectedTopic] = useState(GRAMMAR_TOPICS[0]);
   const [openAccordion, setOpenAccordion] = useState(null);
 
-  // const toggleAccordion = (idx) => {
-  //   setOpenAccordion(openAccordion === idx ? null : idx);
-  // };
-
   const toggleAccordion = (idx) => {
-  if (openAccordion === idx) {
-    setOpenAccordion(null);
-  } else {
-    setOpenAccordion(idx);
-  }
-};
+    if (openAccordion === idx) {
+      setOpenAccordion(null);
+    } else {
+      setOpenAccordion(idx);
+    }
+  };
 
   return (
     <div className="pt-20 pb-12 px-4 min-h-screen">
@@ -50,9 +42,7 @@ export const Course = () => {
                         : "bg-slate-300"
                     }`}
                   />
-                  <span className="font-semibold text-xs">
-                    {topic.title}
-                  </span>
+                  <span className="font-semibold text-xs">{topic.title}</span>
                 </div>
 
                 <ChevronRight
@@ -70,7 +60,6 @@ export const Course = () => {
 
         {/* Course Content */}
         <div className="grow space-y-6">
-          
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
             <div>
               <h2 className="text-2xl font-black text-slate-900 mb-1">
@@ -79,7 +68,6 @@ export const Course = () => {
 
               <div className="flex items-center gap-4">
                 <span className="text-indigo-600 text-xs font-bold flex items-center gap-1">
-                  
                   {selectedTopic.items.length} Lessons
                 </span>
               </div>
@@ -89,8 +77,7 @@ export const Course = () => {
           {/* ACCORDION */}
           <div className="space-y-4">
             {selectedTopic.items.map((item, idx) => {
-             
-             const isOpen = openAccordion === idx;
+              const isOpen = openAccordion === idx;
 
               return (
                 <Card
@@ -128,9 +115,7 @@ export const Course = () => {
                   {/* Accordion Content */}
                   <div
                     className={`transition-all duration-500 ease-in-out overflow-hidden ${
-                      isOpen
-                        ? "max-h-750 opacity-100"
-                        : "max-h-0 opacity-0"
+                      isOpen ? "max-h-750 opacity-100" : "max-h-0 opacity-0"
                     }`}
                   >
                     <CardBody className="p-6 pt-0">
@@ -145,7 +130,6 @@ export const Course = () => {
                         {/* Examples */}
                         <div>
                           <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
-                           
                             Examples
                           </h4>
 

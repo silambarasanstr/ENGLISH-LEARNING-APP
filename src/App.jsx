@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./containers/Home";
 import { Course } from "./containers/Course";
-import { Practice } from "./containers/Practice";
 import { Interview } from "./containers/Interview";
 import { Schedule } from "./containers/Schedule";
 import { Dashboard } from "./containers/Dashboard";
@@ -22,7 +21,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/courses" element={<Course />} />
-              <Route path="/practice" element={<Practice />} />
+
               <Route path="/interviews" element={<Interview />} />
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/dashboard" element={<Dashboard />} />

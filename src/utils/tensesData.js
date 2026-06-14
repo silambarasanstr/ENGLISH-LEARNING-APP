@@ -206,22 +206,22 @@ const tensesData = {
         items: [
           {
             name: "Simple",
-            example: "shy is reading a book.",
+            example: "She is reading a book.",
           },
 
           {
             name: "Continuous",
-            example: "she is reading now.",
+            example: "She is reading now.",
           },
 
           {
             name: "Perfect",
-            example: "she has finished her homework.",
+            example: "She has finished her homework.",
           },
 
           {
             name: "Perfect Continuous",
-            example: "she has been studying for hours.",
+            example: "She has been studying for hours.",
           },
         ],
       },
@@ -234,22 +234,22 @@ const tensesData = {
         items: [
           {
             name: "Simple",
-            example: "she visited Chennai yesterday.",
+            example: "She visited Chennai yesterday.",
           },
 
           {
             name: "Continuous",
-            example: "she was cooking dinner.",
+            example: "She was cooking dinner.",
           },
 
           {
             name: "Perfect",
-            example: "she had completed the project.",
+            example: "She had completed the project.",
           },
 
           {
             name: "Perfect Continuous",
-            example: "she had been studying for hours.",
+            example: "She had been studying for hours.",
           },
         ],
       },
@@ -262,22 +262,22 @@ const tensesData = {
         items: [
           {
             name: "Simple",
-            example: "she will join the class tomorrow.",
+            example: "She will join the class tomorrow.",
           },
 
           {
             name: "Continuous",
-            example: "she will be traveling next week.",
+            example: "She will be traveling next week.",
           },
 
           {
             name: "Perfect",
-            example: "she will have finished the exam.",
+            example: "She will have finished the exam.",
           },
 
           {
             name: "Perfect Continuous",
-            example: "she will have been working here for 2 years.",
+            example: "She will have been working here for 2 years.",
           },
         ],
       },
@@ -359,6 +359,164 @@ const tensesData = {
           {
             name: "Perfect Continuous",
             example: "We will have been learning for 2 months.",
+          },
+        ],
+      },
+    ],
+  },
+
+  "Day-5": {
+    date: dynamicDate,
+    tenses: [
+      {
+        id: 1,
+        title: "PRESENT",
+        color: "bg-red-600",
+        textColor: "text-red-600",
+        items: [
+          {
+            name: "Simple",
+            example: "It is raining today.",
+          },
+
+          {
+            name: "Continuous",
+            example: "It is raining now.",
+          },
+
+          {
+            name: "Perfect",
+            example: "It has rained for 2 days.",
+          },
+
+          {
+            name: "Perfect Continuous",
+            example: "It has been raining for 2 months.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: "PAST",
+        color: "bg-green-600",
+        textColor: "text-green-600",
+        items: [
+          {
+            name: "Simple",
+            example: "It rained yesterday.",
+          },
+          {
+            name: "Continuous",
+            example: "It was raining.",
+          },
+          {
+            name: "Perfect",
+            example: "It had rained for 2 days.",
+          },
+          {
+            name: "Perfect Continuous",
+            example: "It had been raining for 2 months.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: "FUTURE",
+        color: "bg-blue-600",
+        textColor: "text-blue-600",
+        items: [
+          {
+            name: "Simple",
+            example: "It will rain tomorrow.",
+          },
+          {
+            name: "Continuous",
+            example: "It will be raining next week.",
+          },
+          {
+            name: "Perfect",
+            example: "It will have rained for 2 days.",
+          },
+          {
+            name: "Perfect Continuous",
+            example: "It will have been raining for 2 months.",
+          },
+        ],
+      },
+    ],
+  },
+  "Day-6": {
+    date: dynamicDate,
+    tenses: [
+      {
+        id: 1,
+        title: "PRESENT",
+        color: "bg-red-600",
+        textColor: "text-red-600",
+        items: [
+          {
+            name: "Simple",
+            example: "She does the shopping.",
+          },
+          {
+            name: "Continuous",
+            example: "She is doing the shopping.",
+          },
+          {
+            name: "Perfect",
+            example: "She has done the shopping.",
+          },
+          {
+            name: "Perfect Continuous",
+            example: "She has been doing the shopping for 2 hours.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: "PAST",
+        color: "bg-green-600",
+        textColor: "text-green-600",
+        items: [
+          {
+            name: "Simple",
+            example: "She did the shopping.",
+          },
+          {
+            name: "Continuous",
+            example: "She was doing the shopping.",
+          },
+          {
+            name: "Perfect",
+            example: "She had done the shopping.",
+          },
+          {
+            name: "Perfect Continuous",
+            example: "She had been doing the shopping for 2 hours.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: "FUTURE",
+        color: "bg-blue-600",
+        textColor: "text-blue-600",
+        items: [
+          {
+            name: "Simple",
+            example: "She will do the shopping.",
+          },
+          {
+            name: "Continuous",
+            example: "She will be doing the shopping.",
+          },
+          {
+            name: "Perfect",
+            example: "She will have done the shopping.",
+          },
+          {
+            name: "Perfect Continuous",
+            example: "She will have been doing the shopping for 2 hours.",
           },
         ],
       },

@@ -2,15 +2,14 @@
 
 const TenseCard = ({ tense }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-start py-4 border-b border-gray-200 last:border-b-0 ">
-      
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-start py-4 border  shadow border-gray-300  bg-gray-100 p-3">
       {/* LEFT SIDE */}
       <div className="flex justify-center md:justify-start">
         <div
-          className={`${tense.color} text-white px-4 py-2 rounded-lg shadow-sm`}
+          className={`${tense.color} text-white px-4 py-2 rounded shadow-sm`}
         >
           <h1 className="text-sm md:text-base font-bold tracking-wide">
-            {tense.title}
+            {tense.title} 
           </h1>
         </div>
       </div>

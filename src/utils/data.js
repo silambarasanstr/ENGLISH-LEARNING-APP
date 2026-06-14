@@ -14,83 +14,6 @@ export const GRAMMAR_TOPICS = [
         desc: "Represents a person, place, or thing.",
       },
       {
-        title: "Verb (Action)",
-        subtitle: "வினைச்சொல்",
-        examples: [
-          { english: "run (Action)", tamil: "ஓடு" },
-          { english: "eat (Action)", tamil: "சாப்பிடு" },
-          { english: "speak (Action)", tamil: "பேசு" },
-        ],
-        types: [
-          {
-            name: "Action Verbs",
-            tamil: "செயல் வினைச்சொற்கள்",
-            examples: [
-              { english: "Run", tamil: "ஓடு" },
-              { english: "Eat", tamil: "சாப்பிடு" },
-              { english: "Write", tamil: "எழுது" },
-              { english: "Play", tamil: "விளையாடு" },
-              { english: "Read", tamil: "படி" },
-            ],
-          },
-          {
-            name: "Linking Verbs",
-            tamil: "இணைப்பு வினைச்சொற்கள்",
-            examples: [
-              { english: "Is", tamil: "இருக்கிறது" },
-              { english: "Am", tamil: "இருக்கிறேன்" },
-              { english: "Are", tamil: "இருக்கிறார்கள்" },
-              { english: "Was", tamil: "இருந்தது" },
-              { english: "Were", tamil: "இருந்தார்கள்" },
-              { english: "Become", tamil: "ஆகிறது" },
-              { english: "Seem", tamil: "போல் தெரிகிறது" },
-              { english: "Look", tamil: "போல் தெரிகிறது" },
-            ],
-          },
-
-          {
-            name: "Helping Verbs",
-            tamil: "உதவி வினைச்சொற்கள்",
-            examples: [
-              { english: "Have", tamil: "உள்ளது" },
-              { english: "Has", tamil: "உள்ளது" },
-              { english: "Had", tamil: "இருந்தது" },
-              { english: "Do", tamil: "செய்" },
-              { english: "Does", tamil: "செய்கிறது" },
-              { english: "Did", tamil: "செய்தது" },
-              { english: "Will", tamil: "செய்வேன்" },
-            ],
-          },
-        ],
-        desc: "Represents an action or state.",
-      },
-      {
-        title: "Adverb (Describes the action)",
-        subtitle: "வினையுரிச்சொல்",
-        examples: [
-          { english: "quickly (how he runs)", tamil: "விரைவாக" },
-          { english: "slowly (Manner)", tamil: "மெதுவாக" },
-          { english: "carefully (Manner)", tamil: "கவனமாக" },
-          { english: "easily (Manner)", tamil: "எளிதாக" },
-          { english: "happily (Manner)", tamil: "மகிழ்ச்சியாக" },
-          { english: "sadly (Manner)", tamil: "துக்கமாக" },
-          { english: "loudly (Manner)", tamil: "சத்தமாக" },
-          { english: "silently (Manner)", tamil: "அமைதியாக" },
-        ],
-        desc: "Describes a verb, adjective, or another adverb.",
-      },
-      {
-        title: "Adjective (Description)",
-        subtitle: "பெயரடைச்சொல்",
-        examples: [
-          { english: "big (Description)", tamil: "பெரிய" },
-          { english: "small (Description)", tamil: "சிறிய" },
-          { english: "beautiful (Description)", tamil: "அழகான" },
-        ],
-        desc: "Describes a noun.",
-      },
-
-      {
         title: "Pronoun (Personal or Possessive)",
         subtitle: "பிரதிப்பெயர்ச்சொல்",
         desc: "Used in place of a noun.",
@@ -167,6 +90,83 @@ export const GRAMMAR_TOPICS = [
           },
         ],
       },
+      {
+        title: "Verb (Action)",
+        subtitle: "வினைச்சொல்",
+        examples: [
+          { english: "run (Action)", tamil: "ஓடு" },
+          { english: "eat (Action)", tamil: "சாப்பிடு" },
+          { english: "speak (Action)", tamil: "பேசு" },
+        ],
+        types: [
+          {
+            name: "Action Verbs",
+            tamil: "செயல் வினைச்சொற்கள்",
+            examples: [
+              { english: "Run", tamil: "ஓடு" },
+              { english: "Eat", tamil: "சாப்பிடு" },
+              { english: "Write", tamil: "எழுது" },
+              { english: "Play", tamil: "விளையாடு" },
+              { english: "Read", tamil: "படி" },
+            ],
+          },
+          {
+            name: "Linking Verbs",
+            tamil: "இணைப்பு வினைச்சொற்கள்",
+            examples: [
+              { english: "Is", tamil: "இருக்கிறது" },
+              { english: "Am", tamil: "இருக்கிறேன்" },
+              { english: "Are", tamil: "இருக்கிறார்கள்" },
+              { english: "Was", tamil: "இருந்தது" },
+              { english: "Were", tamil: "இருந்தார்கள்" },
+              { english: "Become", tamil: "ஆகிறது" },
+              { english: "Seem", tamil: "போல் தெரிகிறது" },
+              { english: "Look", tamil: "போல் தெரிகிறது" },
+            ],
+          },
+
+          {
+            name: "Helping Verbs",
+            tamil: "உதவி வினைச்சொற்கள்",
+            examples: [
+              { english: "Have", tamil: "உள்ளது" },
+              { english: "Has", tamil: "உள்ளது" },
+              { english: "Had", tamil: "இருந்தது" },
+              { english: "Do", tamil: "செய்" },
+              { english: "Does", tamil: "செய்கிறது" },
+              { english: "Did", tamil: "செய்தது" },
+              { english: "Will", tamil: "செய்வேன்" },
+            ],
+          },
+        ],
+        desc: "Represents an action or state.",
+      },
+      {
+        title: "Adverb (Describes the action)",
+        subtitle: "வினையுரிச்சொல்",
+        examples: [
+          { english: "quickly (how he runs)", tamil: "விரைவாக" },
+          { english: "slowly (Manner)", tamil: "மெதுவாக" },
+          { english: "carefully (Manner)", tamil: "கவனமாக" },
+          { english: "easily (Manner)", tamil: "எளிதாக" },
+          { english: "happily (Manner)", tamil: "மகிழ்ச்சியாக" },
+          { english: "sadly (Manner)", tamil: "துக்கமாக" },
+          { english: "loudly (Manner)", tamil: "சத்தமாக" },
+          { english: "silently (Manner)", tamil: "அமைதியாக" },
+        ],
+        desc: "Describes a verb, adjective, or another adverb.",
+      },
+      {
+        title: "Adjective (Description)",
+        subtitle: "பெயரடைச்சொல்",
+        examples: [
+          { english: "big (Description)", tamil: "பெரிய" },
+          { english: "small (Description)", tamil: "சிறிய" },
+          { english: "beautiful (Description)", tamil: "அழகான" },
+        ],
+        desc: "Describes a noun.",
+      },
+
       {
         title: "Preposition (Place or Time)",
         subtitle: "முன்னிலைச் சொல்",
@@ -249,7 +249,7 @@ export const GRAMMAR_TOPICS = [
       },
     ],
   },
- 
+
   {
     id: "sentence-structure",
     title: "Sentence Structure",
@@ -391,7 +391,7 @@ export const GRAMMAR_TOPICS = [
       },
     ],
   },
-  
+
   {
     id: "wh-questions",
     title: "WH Questions",
@@ -406,8 +406,6 @@ export const GRAMMAR_TOPICS = [
       },
     ],
   },
-
-  
 ];
 
 export const CONVERSATIONS = [
@@ -527,6 +525,53 @@ export const INTERVIEW_CATEGORIES = [
           "My most challenging project involved migrating a legacy system to a modern architecture under tight deadlines.",
         tamilExplanation:
           "உங்கள் மிகவும் சவாலான திட்டத்தை விவரிக்கவும். பழைய அமைப்பை நவீன கட்டமைப்புக்கு இறுக்கமான காலக்கெடுவுக்குள் மாற்றியது ஒரு சவாலாக இருந்தது.",
+      },
+    ],
+  },
+  {
+    id: "companies",
+    title: "Company Interviews",
+    desc: "Questions about your experience with other companies.",
+    questions: [
+      {
+        id: "t1",
+        question: "Honest & Professional",
+        answer:
+          "Yes, I am  exploring a few opportunities that align with my skills and career goals. However, I’m particularly interested in this role because of the growth and learning opportunities it offers.",
+        tamilExplanation:
+          "நீங்கள் உண்மையாகவும் தொழிலியலாகவும் இருக்கிறீர்கள் என்று கேட்கிறார்கள். எனது திறமைகள் மற்றும் வேலையின் நோக்கங்களுடன் பொருந்தும் சில வாய்ப்புகளை நான் ஆராய்கிறேன். ஆனால், இந்தப் பதவி எனக்கு வளர்ச்சி மற்றும் கற்றல் வாய்ப்புகளைத் தருவதால் நான் அதற்குச் சிறப்பாகவும்  interestedஆகவும்  irk.",
+      },
+      {
+        id: "t2",
+        question: "Interest-Focused",
+        answer:
+          "Yes, I am  in discussions with a few companies, but I’m evaluating opportunities based on long-term career growth rather than just receiving an offer.",
+        tamilExplanation:
+          "நீங்கள் விருப்பமாகவும் தொழிலியலாகவும் இருக்கிறீர்கள் என்று கேட்கிறார்கள். சில நிறுவனங்களுடன் நான் பேசுகிறேன், ஆனால் நான் நீண்டகால வேலையின் வளர்ச்சி மற்றும் கற்றல் வாய்ப்புகளைத் தருவதால் நான் அதற்குச் சிறப்பாகவும்  interestedஆகவும்  irk.",
+      },
+      {
+        id: "t3",
+        question: "Value-Based Answer",
+        answer:
+          "I am attending a few interviews to understand where my skills can create the most value. I am  looking for the right fit for both the company and myself.",
+        tamilExplanation:
+          "நான் சில பேச்சுகளில் கலந்து கொள்ள வருகிறேன் என்று தெரியவிடுகிறேன், எனது திறமைகள் எங்கே மிகச் சிறப்பாக மதிப்பு உண்டாகும். நான் நிறுவனம் மற்றும் நான் இரண்டும் கொண்டும்  correct fit ஐத் தேடி  irk.",
+      },
+      {
+        id: "t4",
+        question: "Confident Answer",
+        answer:
+          "Yes, I have a few ongoing interview processes. My focus is on finding a role where I can contribute meaningfully and continue growing professionally.",
+        tamilExplanation:
+          "ஆம், நான் சில பேச்சுகளில் கலந்து கொள்ள வருகிறேன். எனது திறமைகளைப் பயன்படுத்தி முக்கியமாக உதவலாம் என்று நான் கவலைப்படுகிறேன். தொழிலியலாக  வளர்ச்சி  பெற  irk.",
+      },
+      {
+        id: "t5",
+        question: "Best Balanced Answer",
+        answer:
+          "Yes, I am currently exploring multiple opportunities. At the same time, I am carefully assessing each role based on responsibilities, team culture, and career progression.",
+        tamilExplanation:
+          "ஆம், நான் தற்போது பல வாய்ப்புகளை ஆராய்கிறேன். அதே நேரத்தில், நான் ஒவ்வொரு பதவியையும் கவலைப்படுத்தி மதிப்பிடுகிறேன், அதற்குள்  responsibilities, team culture, and career progression.",
       },
     ],
   },

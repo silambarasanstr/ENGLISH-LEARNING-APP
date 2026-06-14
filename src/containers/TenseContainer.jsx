@@ -12,8 +12,17 @@ const TenseContainer = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-3 py-4">
+      
+      <div className="text-center  text-gray-500 mb-4 space-y-0.5 font-semibold text-2xl">
+        <p >
+          {currentDay.date.day}, {currentDay.date.month} {currentDay.date.year}
+        </p>
+
+        <p>{currentDay.date.fullDate}</p>
+      </div>
+
       {/* DAY BUTTONS */}
-      <div className="flex flex-wrap gap-2 justify-center mb-4">
+      <div className="flex flex-wrap gap-2 justify-center mb-4 mt-10">
         {Object.keys(tensesData).map((day) => (
           <button
             key={day}
@@ -33,23 +42,16 @@ const TenseContainer = () => {
       </div>
 
       {/* HEADER */}
-      <div className=" px-4 py-3 shadow-sm mt-5 mb-4 border border-gray-300">
+      <div className=" px-4 py-3   mb-4 border  shadow border-gray-300  bg-gray-100 mt-10">
         <h1 className="text-base md:text-xl font-semibold text-center leading-snug">
           {selectedDay} - Daily Tense Learning Practice
         </h1>
       </div>
 
       {/* DATE */}
-      <div className="text-center text-xs text-gray-500 mb-4 space-y-0.5">
-        <p>
-          {currentDay.date.day}, {currentDay.date.month} {currentDay.date.year}
-        </p>
-
-        <p>{currentDay.date.fullDate}</p>
-      </div>
 
       {/* TENSE CARDS */}
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-3">
+      <div className="bg-white  border-gray-200 p-3 space-y-3 ">
         {currentDay.tenses.length === 0 && (
           <div className="text-center text-sm text-gray-500">
             No tenses for this day.
