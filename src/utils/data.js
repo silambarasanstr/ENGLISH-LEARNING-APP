@@ -575,6 +575,66 @@ export const INTERVIEW_CATEGORIES = [
       },
     ],
   },
+  {
+    id: "daily-conversation",
+    title: "Daily Conversation",
+    desc: "Daily Phone Conversation Practice",
+    questions: [
+      {
+        id: "t1",
+        question: "HR: Tell me about yourself.",
+        answer:
+          "You: Hi, I'm Silambarasan. I'm a frontend developer with experience in React.js, TypeScript, JavaScript, Tailwind CSS, and Redux Toolkit. I have worked on developing responsive and user-friendly web applications. Currently, I am looking for new opportunities to grow my skills and contribute to a development team.",
+      },
+      {
+        id: "t2",
+        question: "Current Project Explanation",
+        answer:
+          "Currently, I am working on an e-commerce application. I am responsible for developing UI components, integrating APIs, managing state using Redux Toolkit, implementing product filtering and search functionality, and ensuring responsive design across different devices. (or) I have been working on e-commerce projects and learning Next.js to improve my frontend development skills.",
+      },
+      {
+        id: "t3",
+        question: "Technical Skills",
+        answer:
+          "My primary skills are React.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Redux Toolkit, REST APIs, Git, and responsive web design.",
+      },
+      {
+        id: "t4",
+        question: "Future Goals",
+        answer:
+          "My future goals include contributing to open-source projects, learning new technologies, and expanding my knowledge in frontend development.",
+      },
+      {
+        id: "t5",
+        question: "Reason for Job Change",
+        answer:
+          "I am looking for new challenges and opportunities to grow my career. I believe this position will allow me to contribute more effectively and continue developing my skills.",
+      },
+      {
+        id: "t6",
+        question: "Notice Period",
+        answer: "I can join immediately.",
+      },
+      {
+        id: "t7",
+        question: "Reason for leaving",
+        answer:
+          "I have found a better opportunity and decided to take it. (or) I have been offered a better role and I am open to it.",
+      },
+      {
+        id: "t8",
+        question: "Ending the Call",
+        answer:
+          "Thank you for your time. It was nice speaking with you. I look forward to hearing from you.",
+      },
+      {
+        id: "t9",
+        question: "If you don't understand a question",
+        answer:
+          "Could you please repeat the question?. Sorry, I didn't catch that. Could you say it again?. Could you please explain the question a little more?",
+      },
+    ],
+  },
 ];
 
 export const PROMPTS = [
